@@ -11,41 +11,42 @@
     <header>
         <nav class="text-right">
             <ul class="highlighted-text">
-                <li><a href="#">liebg08@gmail.com</a></li>
-                <li><a href="#">https://github.com/garrett-lieb
-                <li><a href="#">coming soon</a></li>
+                <li><a href="liebg08@gmail.com">email</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
-              </nav>
+        </nav>
     </header>
 
     <main>
-        <h1>My New Website</h1>
+        <h1 class="text-center">My New Website</h1>
         <figure>
-            <img src="./assets/image-1.png"  alt="placeholder image"/>
+            <img src="./assets/image-1.png" alt="Dark brown box with coming soon text at center and 3 internal, colored frames">
+            <figcaption class="text-center">Defining multiple elements' class as text-ceneter to modify in css.</figcaption>
         </figure>
+        <section id="contact">
+            <h2 class="text-center">Contact Me</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                        <label class="text-right" for="email">Email:</label>
+                        <input type="text" id="email" name="user-email">
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <button type="submit">SEND</button>
+                </div>
+            </form>
+        </section>
     </main>
 
-    <container>
-        <h1>Contact Me</h1>
-        <form action="" method="get" class="form-example">
-            <div class="form-example">
-              <label for="name">Enter your name: </label>
-              <input type="text" name="name" id="name" required />
-            </div>
-            <div class="form-example">
-              <label for="email">Enter your email: </label>
-              <input type="email" name="email" id="email" required />
-            </div>
-            <div class="form-example">
-              <input type="submit" value="Subscribe!" />
-            </div>
-          </form>    
-    </container>
-
-    <footer>
-        <h1>copyright practice</h1>      
+    <footer class="text-center">
+        © 2023 My New Website Productions       
     </footer>
-</body>
     
-
+</body>
 </html>
